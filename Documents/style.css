@@ -1,0 +1,110 @@
+
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background : #c3ed76;
+    padding: 10px 30px;
+    text-align: center;
+    width: 100%;
+
+}
+
+.logo {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.navbar {
+    background: #dc4141;
+    width: 100%;
+    padding: 10px 30px;
+
+    
+}
+
+.navbar ul li {
+    display: inline;
+    width: 100%;  
+    
+}
+
+.navbar ul li a {
+    color: #ffffff;
+    padding: 15px;
+    display: inline-block;
+    width: 100%;
+}
+
+
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    width: 100%;
+
+}
+
+main {
+    flex: 3;
+    padding: 10px;
+}
+
+.Sidebar {
+    flex: 1;
+    padding: 10px;
+    background: #bdd672;
+    
+
+}
+
+.footer {
+    background: #340b5f;
+    color: #fafcfd;
+    text-align: center;
+    padding: 10px 30px;
+    width: 100%;
+    width: 100%;
+    
+}
+
+.social-media a {
+    margin: 0 10px;
+    color: #fdfdfd;
+    text-decoration: none;
+}
+
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .navbar ul {
+        text-align: center;
+        width: 100%;
+    }
+
+    .navbar ul li {
+        display: block;
+        width: 100%;
+
+        
+    }
+
+    .container {
+        flex-direction: column;
+        background-color: rgb(243, 245, 245);
+    }
+
+    .sidebar {
+        width: 100%;
+        background: #fcfdfd;
+    }
+}
